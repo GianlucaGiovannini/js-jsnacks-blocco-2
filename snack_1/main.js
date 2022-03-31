@@ -4,10 +4,9 @@
     Esegui questo programma in due versioni, con il for e con il while.
 */
 
-// ciclo for 
 
-// CHIEDERE PER 5 VOLTE ALL'UTENTE DI INSERIRE UN NUMERO
-
+// Esegui questo programma con il for
+// Il software deve chiedere per 5 volte all’utente di inserire un numero.
 
 let somma = 0,
     numero_utente;
@@ -18,12 +17,15 @@ for (let index = 0; index < 5; index++) {
 
     somma = somma + numero_utente;
 
-    console.log(somma)
-
 }
 
+// Il programma stampa la somma di tutti i numeri inseriti.
+console.log(somma)
+
+// Esegui questo programma con il while.
 console.log("trasformazione while")
 
+// Il software deve chiedere per 5 volte all’utente di inserire un numero.
 let i = 0,
     numer_utente2,
     somma2 = 0;
@@ -36,5 +38,6 @@ while (i < 5) {
 
     i++
 
-    console.log(somma2)
 }
+// Il programma stampa la somma di tutti i numeri inseriti.
+console.log(somma2)
