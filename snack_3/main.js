@@ -12,7 +12,7 @@ const listaInvitatiInventati = []
 
 let listaInvitati;
 
-/* for (let i = 0; i < 10; i++) {
+/* for (let i = 0; i < nomi.length; i++) {
     listaInvitati = nomi[Math.floor(Math.random() * nomi.length)] + " " + cognomi[Math.floor(Math.random() * cognomi.length)];
 
     console.log(listaInvitati);
@@ -24,7 +24,7 @@ let listaInvitati;
 
 let i = 0;
 
-while (i < 10) {
+while (i < nomi.length) {
 
     listaInvitati = nomi[Math.floor(Math.random() * nomi.length)] + " " + cognomi[Math.floor(Math.random() * cognomi.length)];
 

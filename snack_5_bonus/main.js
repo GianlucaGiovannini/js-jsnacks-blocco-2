@@ -9,8 +9,6 @@ const cognomi = ["Giovannini", "Riccardi", "Carlomusto", "Escobar", "javascript"
 console.log("array1 è lungo " + nomi.length + " elementi")
 console.log("array2 è lungo " + cognomi.length + " caratteri")
 
-console.log("|||| while loop")
-
 let aggiunta;
 
 while (nomi.length != cognomi.length || cognomi.length != nomi.length) {
@@ -26,9 +24,8 @@ while (nomi.length != cognomi.length || cognomi.length != nomi.length) {
 console.log(nomi)
 console.log(cognomi)
 
-console.log("|||| for loop")
 
-for (let i = 0; i <= nomi.length || i <= cognomi.lenght; i++) {
+/* for (let i = 0; i <= nomi.length || i <= cognomi.lenght; i++) {
     if (nomi.length < cognomi.length) {
         aggiunta = prompt("inserisci un elemento")
         nomi.push(aggiunta)
@@ -39,4 +36,4 @@ for (let i = 0; i <= nomi.length || i <= cognomi.lenght; i++) {
 }
 
 console.log(nomi)
-console.log(cognomi)
+console.log(cognomi) */

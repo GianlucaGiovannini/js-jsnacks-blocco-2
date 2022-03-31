@@ -4,6 +4,8 @@
 
 const numeri = [1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15]
 
+console.log(numeri)
+
 let somma = 0;
 
 for (let i = 0; i < numeri.length; i++) {

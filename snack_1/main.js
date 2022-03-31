@@ -13,7 +13,7 @@ let somma = 0,
 
 for (let index = 0; index < 5; index++) {
 
-    numero_utente = Number(prompt("Inserisci un numero"))
+    numero_utente = Number(prompt("Inserisci un numero per il ciclo for"))
 
     somma = somma + numero_utente;
 
@@ -32,7 +32,7 @@ let i = 0,
 
 while (i < 5) {
 
-    numero_utente2 = Number(prompt("Inserisci un numero"))
+    numero_utente2 = Number(prompt("Inserisci un numero per il ciclo while"))
 
     somma2 += numero_utente2;
 
