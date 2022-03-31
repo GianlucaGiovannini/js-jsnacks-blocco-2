@@ -34,7 +34,7 @@ while (i < 5) {
 
     numero_utente2 = Number(prompt("Inserisci un numero"))
 
-    somma2 = somma2 + numero_utente2;
+    somma2 += numero_utente2;
 
     i++
 
